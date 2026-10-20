@@ -1,6 +1,7 @@
 # vtol-learning
 
 PX4 + Gazebo + ROS2 无人机仿真学习仓库。
+
 Week 1 任务：环境搭建与首次起飞。
 
 ## 环境信息
@@ -90,4 +91,5 @@ git switch main && git branch -D test   # 4. 不满意 → 作废
 ## 遇到的问题
 
 问题一：官方 offboard_control 示例几乎跑不起来
+
 问题二：自写 circle 节点起飞阶段撞地
