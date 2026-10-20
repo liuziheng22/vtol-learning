@@ -86,3 +86,8 @@ git switch main && git branch -D test   # 4. 不满意 → 作废
 **原则：main 永远保持能跑，实验都丢分支里。**
 
 主线没动时合并是**快进**，不产生新提交、不冲突，最简单。
+
+## 遇到的问题
+
+问题一：官方 offboard_control 示例几乎跑不起来
+问题二：自写 circle 节点起飞阶段撞地

@@ -1,0 +1,4 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cmake.sourceDirectory": "/home/lzh/vtol-learning/ros2_ws/src/circle"
+}

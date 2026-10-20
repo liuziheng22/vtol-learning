@@ -1,0 +1,10 @@
+[01m[K/home/lzh/vtol-learning/ros2_ws/src/circle/src/circle1.cpp:[m[K In member function ‘[01m[Kvoid CircleControl::publish_trajectory_setpoint()[m[K’:
+[01m[K/home/lzh/vtol-learning/ros2_ws/src/circle/src/circle1.cpp:121:21:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kx[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  121 |     msg.position = {[01;35m[Kx[m[K, y, z};
+      |                     [01;35m[K^[m[K
+[01m[K/home/lzh/vtol-learning/ros2_ws/src/circle/src/circle1.cpp:121:24:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ky[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  121 |     msg.position = {x, [01;35m[Ky[m[K, z};
+      |                        [01;35m[K^[m[K
+[01m[K/home/lzh/vtol-learning/ros2_ws/src/circle/src/circle1.cpp:121:27:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kz[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  121 |     msg.position = {x, y, [01;35m[Kz[m[K};
+      |                           [01;35m[K^[m[K
