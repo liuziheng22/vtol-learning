@@ -16,15 +16,27 @@ Week 1 任务：环境搭建与首次起飞。
 
 ## 快速开始
 
-编译 PX4 SITL 并启动四旋翼仿真：
+启动px4及其gazebo仿真：
 
 ```bash
 cd ~/px4
 make px4_sitl gz_x500
 ```
 
-启动后用 QGC 连接，手动解锁并起飞悬停。
+启动QGC地面站：
 
+```bash
+cd ~
+./QGroundControlV4.4.4.AppImage
+```
+
+启动通信：
+
+```bash
+cd ~
+MicroXRCEAgent udp4 -p 8888
+```
+启动ROS2节点。
 
 ## Git 基本操作
 
