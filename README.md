@@ -1,6 +1,7 @@
 # vtol-learning
 
-PX4 + Gazebo + ROS2 无人机仿真学习仓库，Week 1 任务：环境搭建与首次起飞。
+PX4 + Gazebo + ROS2 无人机仿真学习仓库。
+Week 1 任务：环境搭建与首次起飞。
 
 ## 环境信息
 
