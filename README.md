@@ -46,3 +46,31 @@ make px4_sitl gz_x500
 | `git branch` | 查看 / 新建 / 切换分支 | `git switch -c test` |
 | `git diff` | 查看具体改了什么 | `git diff` |
 | `git log` | 查看提交历史 | `git log --oneline` |
+
+### Git Branch
+
+分支 = 指向最新提交的**指针**，不存代码。`HEAD` 标记你当前在哪条分支。
+
+| 命令 | 作用 |
+|---|---|
+| `git branch` | 查看分支，`*` 为当前 |
+| `git switch -c test` | 新建并切换 |
+| `git switch test` | 切换分支 |
+| `git merge test` | 把 test 合并进当前分支 |
+| `git branch -D test` | 删除分支 |
+
+> `git branch test` 只创建不切换，`git switch` 才切换。
+
+### 工作流
+
+```bash
+git switch -c test        # 1. 开支线
+git add . && git commit -m "试试"   # 2. 随便改、随便提交，主线不动
+
+git switch main && git merge test   # 3. 满意 → 合并
+git switch main && git branch -D test   # 4. 不满意 → 作废
+```
+
+**原则：main 永远保持能跑，实验都丢分支里。**
+
+主线没动时合并是**快进**，不产生新提交、不冲突，最简单。
