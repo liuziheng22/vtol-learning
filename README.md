@@ -93,3 +93,5 @@ git switch main && git branch -D test   # 4. 不满意 → 作废
 问题一：官方 offboard_control 示例几乎跑不起来
 
 问题二：自写 circle 节点起飞阶段撞地
+
+问题三：起飞状态老是在not ready和ready to fly之间来回跳，不稳定。
