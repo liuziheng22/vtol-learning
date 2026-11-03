@@ -94,10 +94,12 @@ git switch main && git branch -D test   # 4. 不满意 → 作废
 
 主线没动时合并是**快进**，不产生新提交、不冲突，最简单。
 
+## 测试结果
+
+一、不启动QGC的情况下，offboard_control测试能正常起飞以及悬停，中断节点后，无人机降落回原点。
+
+二、启动circle节点，不启动QGC的情况下，起飞时略有磕绊，起飞之后正常绕圈，中断节点后，无人机降落回原点。
+
 ## 遇到的问题
 
-问题一：官方 offboard_control 示例几乎跑不起来
-
-问题二：自写 circle 节点起飞阶段撞地
-
-问题三：起飞状态老是在not ready和ready to fly之间来回跳，不稳定。
+问题一：启动QGC之后，offboard_control测试仿真无人机总是莫名奇妙返航。
