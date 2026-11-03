@@ -37,7 +37,13 @@ cd ~
 cd ~
 MicroXRCEAgent udp4 -p 8888
 ```
+
 启动ROS2节点。
+可以用以下指令测试
+```bash
+cd ~/vtol-learning/ros2_ws
+ros2 run px4_ros_com offboard_control
+```
 
 ## Git 基本操作
 
