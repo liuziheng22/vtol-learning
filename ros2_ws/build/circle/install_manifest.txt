@@ -1,4 +1,5 @@
 /home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/circle1
+/home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/watchdog
 /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
 /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
 /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/ament_prefix_path.sh

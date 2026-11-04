@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/lzh/vtol-learning/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lzh/vtol-learning/ros2_ws/build/circle
+[35m[1mConsolidate compiler generated dependencies of target circle1[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[ 75%] Built target circle1
+[100%] [32m[1mLinking CXX executable watchdog[0m
+[100%] Built target watchdog
+-- Install configuration: ""
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/circle1
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/watchdog
+-- Set runtime path of "/home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/watchdog" to ""
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/ament_prefix_path.sh
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/path.sh
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/path.dsv
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.bash
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.sh
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.zsh
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.dsv
+-- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/package.dsv
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/packages/circle
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/circleConfig.cmake
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/circleConfig-version.cmake
+-- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/package.xml

@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/home/lzh/vtol-learning/ros2_ws/build/circle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lzh/ws00_helloworld/install/pkg04_hellovscode_py:/home/lzh/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lzh/vtol-learning/ros2_ws/build/circle -- -j24 -l24
+[0.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.174s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.194s] -- Found px4_msgs: 2.0.1 (/home/lzh/vtol-learning/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.203s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.223s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.224s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.303s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.339s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.351s] -- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+[0.396s] -- Configuring done
+[0.403s] -- Generating done
+[0.406s] -- Build files have been written to: /home/lzh/vtol-learning/ros2_ws/build/circle
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target circle1[0m
+[0.430s] [ 25%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[0.444s] [ 75%] Built target circle1
+[4.361s] [100%] [32m[1mLinking CXX executable watchdog[0m
+[4.568s] [100%] Built target watchdog
+[4.576s] Invoked command in '/home/lzh/vtol-learning/ros2_ws/build/circle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lzh/ws00_helloworld/install/pkg04_hellovscode_py:/home/lzh/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lzh/vtol-learning/ros2_ws/build/circle -- -j24 -l24
+[4.578s] Invoking command in '/home/lzh/vtol-learning/ros2_ws/build/circle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lzh/ws00_helloworld/install/pkg04_hellovscode_py:/home/lzh/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lzh/vtol-learning/ros2_ws/build/circle
+[4.583s] -- Install configuration: ""
+[4.584s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/circle1
+[4.584s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/watchdog
+[4.588s] -- Set runtime path of "/home/lzh/vtol-learning/ros2_ws/install/circle/lib/circle/watchdog" to ""
+[4.588s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
+[4.588s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
+[4.589s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/ament_prefix_path.sh
+[4.589s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/ament_prefix_path.dsv
+[4.589s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/path.sh
+[4.589s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/environment/path.dsv
+[4.589s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.bash
+[4.589s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.sh
+[4.589s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.zsh
+[4.589s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/local_setup.dsv
+[4.589s] -- Installing: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/package.dsv
+[4.590s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/ament_index/resource_index/packages/circle
+[4.590s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.590s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/circleConfig.cmake
+[4.590s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/cmake/circleConfig-version.cmake
+[4.590s] -- Up-to-date: /home/lzh/vtol-learning/ros2_ws/install/circle/share/circle/package.xml
+[4.592s] Invoked command in '/home/lzh/vtol-learning/ros2_ws/build/circle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lzh/ws00_helloworld/install/pkg04_hellovscode_py:/home/lzh/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lzh/vtol-learning/ros2_ws/build/circle

@@ -29,7 +29,9 @@ find_package(rclpy REQUIRED)
 # Add circle1 executable
 add_executable(circle1 src/circle1.cpp)
 ament_target_dependencies(circle1 rclcpp px4_msgs)
-install(TARGETS circle1 DESTINATION lib/${PROJECT_NAME})
+add_executable(watchdog src/watchdog.cpp)
+ament_target_dependencies(watchdog rclcpp px4_msgs)
+install(TARGETS circle1 watchdog DESTINATION lib/${PROJECT_NAME})
  
 # Export information to downstream packages
 ament_export_dependencies(ament_cmake rclcpp rosidl_default_runtime eigen3_cmake_module Eigen3 px4_msgs geometry_msgs sensor_msgs)

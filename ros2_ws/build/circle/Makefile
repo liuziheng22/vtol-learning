@@ -210,6 +210,19 @@ circle1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle1.dir/build.make CMakeFiles/circle1.dir/build
 .PHONY : circle1/fast
 
+#=============================================================================
+# Target rules for targets named watchdog
+
+# Build rule for target.
+watchdog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 watchdog
+.PHONY : watchdog
+
+# fast build rule for target.
+watchdog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watchdog.dir/build.make CMakeFiles/watchdog.dir/build
+.PHONY : watchdog/fast
+
 src/circle1.o: src/circle1.cpp.o
 .PHONY : src/circle1.o
 
@@ -234,6 +247,30 @@ src/circle1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle1.dir/build.make CMakeFiles/circle1.dir/src/circle1.cpp.s
 .PHONY : src/circle1.cpp.s
 
+src/watchdog.o: src/watchdog.cpp.o
+.PHONY : src/watchdog.o
+
+# target to build an object file
+src/watchdog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watchdog.dir/build.make CMakeFiles/watchdog.dir/src/watchdog.cpp.o
+.PHONY : src/watchdog.cpp.o
+
+src/watchdog.i: src/watchdog.cpp.i
+.PHONY : src/watchdog.i
+
+# target to preprocess a source file
+src/watchdog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watchdog.dir/build.make CMakeFiles/watchdog.dir/src/watchdog.cpp.i
+.PHONY : src/watchdog.cpp.i
+
+src/watchdog.s: src/watchdog.cpp.s
+.PHONY : src/watchdog.s
+
+# target to generate assembly for a file
+src/watchdog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watchdog.dir/build.make CMakeFiles/watchdog.dir/src/watchdog.cpp.s
+.PHONY : src/watchdog.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... circle_uninstall"
 	@echo "... uninstall"
 	@echo "... circle1"
+	@echo "... watchdog"
 	@echo "... src/circle1.o"
 	@echo "... src/circle1.i"
 	@echo "... src/circle1.s"
+	@echo "... src/watchdog.o"
+	@echo "... src/watchdog.i"
+	@echo "... src/watchdog.s"
 .PHONY : help
 
 
